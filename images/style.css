@@ -9,6 +9,13 @@ body{
     font-family: 'Outfit';
 
 }
+.paranthead{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: auto auto;
+    column-gap: 150px;
+
+}
 .header{
     display: flex;
     flex-direction: column;
